@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header-section style */
+.bg-color{
+    background-image:
+    linear-gradient(rgb(232	130	131 ),rgb(237	209	136));
+    color: white;
+}
+.header-section{
+    height: 700px;
+    background-image: url("img/header-bag.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;   
+}   
+.navbar ul li a:hover{
+    color: orange;
+}
+.header-text{
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+.header-text h1{
+    font-size: 90px;
+}
+.learn-more{
+    padding: 8px 30px;
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    font-weight: bold;
+}
+.shape{
+    background-color: white;
+    width: 60px;
+    margin: auto;
+    height: 3px;
+    margin-bottom: 50px;   
+}
+.shape2{
+    background-color: rgb(238, 63, 63);
+    width: 60px;
+    margin: auto;
+    height: 3px;
+    margin-bottom: 50px;   
+}
+.shape1{
+    background-color: rgba(255, 255, 255, 0.877);
+    width: 80%;
+    height: 3px;  
+    margin-bottom: 15px;
+}
+span{
+    font-size: 21px;
+    font-weight: bold;
+}
+.number{
+    background-color: rgb(149, 225, 212);
+    color: white;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+}
+.number h1{
+    font-weight: bold;
+}
+.service .icon{
+    color: rgb(149, 225, 212);
+}
+.unique-design{
+    height: 750px;
+    background-image: url("img/design-bag.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;   
+}
+.unique-design .img1{
+    padding-left: 450px;
+}
+.unique-design .img2{
+
+}
+/* we-do Section Start */
+.accordion .part .collapse, h2 {
+    border: solid 1px rgb(226, 222, 222);
+}
+.we-do .part{
+    padding-bottom: 10px;
+}
+.accordion .part .collapse {
+    font-style: italic;
+    color: rgb(151, 149, 149);
+}
+.accordion .part .icon {
+    color: rgb(149, 225, 212);
+    font-size: 30px;
+}
