@@ -84,13 +84,14 @@ span{
 
 }
 /* we-do Section Start */
-.accordion .part .collapse, h2 {
+.accordion .part h2{
     border: solid 1px rgb(226, 222, 222);
 }
 .we-do .part{
     padding-bottom: 10px;
 }
 .accordion .part .collapse {
+    border: solid 1px rgb(226, 222, 222);
     font-style: italic;
     color: rgb(151, 149, 149);
 }
