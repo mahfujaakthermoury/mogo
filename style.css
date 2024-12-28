@@ -40,11 +40,12 @@
     margin-bottom: 50px;   
 }
 .shape2{
-    background-color: rgb(238, 63, 63);
+    background-color: rgb(211, 90, 90);
     width: 60px;
     margin: auto;
     height: 3px;
     margin-bottom: 50px;   
+    margin-left: 500px;
 }
 .shape1{
     background-color: rgba(255, 255, 255, 0.877);
@@ -77,6 +78,14 @@ span{
     background-size: cover; 
     background-position: center;   
 }
+.uniue-design-shape{
+    background-color: rgb(211, 90, 90);
+    width: 60px;
+    margin: auto;
+    height: 3px;
+    margin-bottom: 50px;   
+    margin-left: 640px;
+}
 .unique-design .img1{
     padding-left: 450px;
 }
@@ -98,4 +107,29 @@ span{
 .accordion .part .icon {
     color: rgb(149, 225, 212);
     font-size: 30px;
+}
+/* comment-slide start */
+.comment-slide{
+    margin-top: 80px ;
+    padding: 40px 0px ;
+    background-color: rgb(244, 248, 247);
+}
+.comment-slide p{
+    font-style: italic;
+}
+.slide-icon i{
+    color: rgb(149, 225, 212);
+    font-size: 40px;
+    border: solid 2px rgb(149, 225, 212);
+    padding: 35px;
+}
+.slide-shape{
+    background-color: rgb(211, 90, 90);
+    width: 55px;
+    height: 3px; 
+}
+/* logo-slide start */
+.logo-slide{
+    padding: 40px 0px ;
+    background-color: rgb(244, 248, 247);
 }
