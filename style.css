@@ -114,7 +114,7 @@ span{
     padding: 40px 0px ;
     background-color: rgb(244, 248, 247);
 }
-.comment-slide p{
+.feedback-slide, .comment-slide p{
     font-style: italic;
 }
 .slide-icon i{
@@ -132,4 +132,8 @@ span{
 .logo-slide{
     padding: 40px 0px ;
     background-color: rgb(244, 248, 247);
+}
+.feedback-slide{
+    margin-top: 50px ;
+    padding: 40px 0px ;
 }
