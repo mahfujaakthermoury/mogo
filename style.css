@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+.text-style{
+    font-style: italic;
+    color: rgb(124, 124, 124);
+}
 /* header-section style */
 .bg-color{
     background-image:
@@ -114,9 +118,6 @@ span{
     padding: 40px 0px ;
     background-color: rgb(244, 248, 247);
 }
-.feedback-slide, .comment-slide p{
-    font-style: italic;
-}
 .slide-icon i{
     color: rgb(149, 225, 212);
     font-size: 40px;
@@ -136,4 +137,18 @@ span{
 .feedback-slide{
     margin-top: 50px ;
     padding: 40px 0px ;
+}
+/*  */
+.clients-shape{
+    background-color: rgb(211, 90, 90);
+    width: 60px;
+    height: 3px;
+    margin-bottom: 15px;   
+}
+.happy-clients{
+    height: 750px;
+    background-image: url("img/client-beg.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;   
 }
