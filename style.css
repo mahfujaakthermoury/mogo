@@ -134,11 +134,12 @@ span{
     padding: 40px 0px ;
     background-color: rgb(244, 248, 247);
 }
+/* feedback-slide start */
 .feedback-slide{
     margin-top: 50px ;
     padding: 40px 0px ;
 }
-/*  */
+/* happy-clients start*/
 .clients-shape{
     background-color: rgb(211, 90, 90);
     width: 60px;
@@ -151,4 +152,47 @@ span{
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;   
+}
+/* blog start */
+.sti{
+    color: white;
+    text-align: center;
+    background-color:rgb(149, 225, 212); 
+    height: 80px;
+    width: 70px;
+}
+/* our-map start */
+.open-map{
+    height: 200px;
+    background-image: url("img/client-beg.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;  
+    padding-top: 70px; 
+}
+/* Footer start */
+.footer-text-style-h1{
+    color: rgb(197, 195, 195);
+}
+.footer-text-style{
+    color: rgb(124, 124, 124);
+}
+.footer .icon i{
+    padding-left: 15px;
+    font-size: 20px;
+    color:rgb(137, 228, 213) ;
+}
+.footer input{
+    border: 1px solid rgb(207, 206, 206);
+    color: rgb(179, 179, 179);
+}
+.footer button{
+    background-color:rgb(137, 228, 213) ;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.footer .instragram-photo .col{
+    padding-top: 10px;
+    
 }
