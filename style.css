@@ -196,3 +196,29 @@ span{
     padding-top: 10px;
     
 }
+/* gallery start */
+.gallery {
+    margin-top: 190px;
+  }
+  
+  .gallery-photo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  @media (min-width: 540px) {
+    .gallery-photo {
+      grid-template-columns: 1fr 1.2fr 1fr;
+      margin-top: -4rem;
+    }
+  }
+  
+  .gallery-photo .img-item:nth-child(3) {
+    grid-row: 1/4;
+    grid-column: 3/4;
+  }
+  
+  .gallery-photo .img-item img {
+    height: 100%;
+    object-fit: cover;
+  }
