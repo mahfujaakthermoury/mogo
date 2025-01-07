@@ -205,19 +205,12 @@ span{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
-  
-  @media (min-width: 540px) {
-    .gallery-photo {
-      grid-template-columns: 1fr 1.2fr 1fr;
-      margin-top: -4rem;
-    }
-  }
-  
-  .gallery-photo .img-item:nth-child(3) {
-    grid-row: 1/4;
+  .gallery-photo .img-item:nth-child(4) {
+    grid-row: 1/3;
     grid-column: 3/4;
   }
   
+
   .gallery-photo .img-item img {
     height: 100%;
     object-fit: cover;
