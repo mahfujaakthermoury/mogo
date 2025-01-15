@@ -152,12 +152,22 @@ margin-left: 800px;
   .gallery-photo .img-item img {
     height: 100%;
     object-fit: cover;
+    position: relative;
   }
-  .gallery-photo .img-item img:hover{
+  .gallery-photo .img-text{
+    position: absolute;
+    /* height: 300px; */
+    /* object-fit: cover; */
+    /* display: none; */
+  }
+  .gallery-photo .img-item .img-text{
     background-image:
     linear-gradient(rgb(232	130	131 ),rgb(237	209	136));
     color: white;
   }
+  /* .gallery-photo .img-item img:hover{
+
+  } */
   .gallery-photo .img-text{
     background-image:
     linear-gradient(rgb(232	130	131 ),rgb(237	209	136));
